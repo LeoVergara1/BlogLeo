@@ -5,4 +5,4 @@ title = "Inicio en Makings Devs"
 image = "prog.png"
 +++
 
-Hola este es lo primero blogg para mostrar la documentaciòn **aprendida**. 
+Hola este es lo primero blogg para mostrar la documentaciòn **aprendida**. todo 
