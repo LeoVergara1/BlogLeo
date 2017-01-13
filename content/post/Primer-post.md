@@ -7,7 +7,7 @@ image = "prog.png"
 
 En el día de mi entrevista pude darme cuenta, estaba entrando a un gran reto ya que aquí se tiene la ideología diciendo que se debe tener una buena base teórica de los conceptos  para llevar a cabo un correcto desempeño en el desarrollo.
 
-![GitHub Logo](/images/teoria.png)
+![Teoria](/images/teoria.png)
 
 En primeros días en making devs, me logre dar cuenta que existían varias tecnología de las cuales apenas había escuchado y de otras no tenía ni la menor idea como son:
     
@@ -29,7 +29,7 @@ Sin embargo el concepto que más claro me quedó fue el de **Integración contin
 Después de investigar una serie de conceptos y teorías que me hacían falta reforzar para un conocimiento básico de las herramientas que en un futuro utilizaré, realice el siguiente documento como guía de estudio.
 
 
-[![GitHub Logo](/images/doc.png)](https://drive.google.com/open?id=1cnFEzMq8ghtzGYwAAsyEa-O6OOZbdzgKQUw9TMZ7ps4) **Dar clic en la imagen para ver documento**
+[![doc Logo](/images/doc.png)](https://drive.google.com/open?id=1cnFEzMq8ghtzGYwAAsyEa-O6OOZbdzgKQUw9TMZ7ps4) **Dar clic en la imagen para ver documento**
 
 En el documento se tratan conceptos en general desde que es orientación a objetos hasta tipos de shell o diferencias entre unix y linux y sus origines a grandes rasgos.
 
