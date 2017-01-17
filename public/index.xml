@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leos Vergara</title>
-    <link>https://localhosta:1313/</link>
+    <link>http://localhosta:1313/</link>
     <description>Recent content on Leos Vergara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Copyright Text</copyright>
     <lastBuildDate>Tue, 17 Jan 2017 09:38:42 -0600</lastBuildDate>
-    <atom:link href="https://localhosta:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhosta:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Comandos en Unix y Linux</title>
-      <link>https://localhosta:1313/post/Comandos/</link>
+      <link>http://localhosta:1313/post/Comandos/</link>
       <pubDate>Tue, 17 Jan 2017 09:38:42 -0600</pubDate>
       
-      <guid>https://localhosta:1313/post/Comandos/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://localhosta:1313/images/comandos.png&#34; alt=&#34;Comnados&#34; /&gt;&lt;/p&gt;
+      <guid>http://localhosta:1313/post/Comandos/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhosta:1313/images/comandos.png&#34; alt=&#34;Comnados&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Inicio en goHugo</title>
-      <link>https://localhosta:1313/post/Inicio-en-goHugo/</link>
+      <link>http://localhosta:1313/post/Inicio-en-goHugo/</link>
       <pubDate>Thu, 12 Jan 2017 15:07:41 -0600</pubDate>
       
-      <guid>https://localhosta:1313/post/Inicio-en-goHugo/</guid>
+      <guid>http://localhosta:1313/post/Inicio-en-goHugo/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;images/hugo1.png&#34; alt=&#34;Hugo&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Prácticamente es un framework que sirve para realizar sitios estáticos.  A diferencia de otros sistemas que construyen dinámicamente una página cada vez que un visitante solicita una. Dado que los sitios web son vistos con mucha más frecuencia de lo que se editan, Hugo está optimizado para la visualización de página web al tiempo que proporciona una gran experiencia de la escritura.&lt;/p&gt;
@@ -77,23 +77,23 @@
     
     <item>
       <title>Cuearto post</title>
-      <link>https://localhosta:1313/post/Cuearto-post/</link>
+      <link>http://localhosta:1313/post/Cuearto-post/</link>
       <pubDate>Thu, 12 Jan 2017 09:37:34 -0600</pubDate>
       
-      <guid>https://localhosta:1313/post/Cuearto-post/</guid>
+      <guid>http://localhosta:1313/post/Cuearto-post/</guid>
       <description>&lt;p&gt;Hola como estas&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Inicio en Makings Devs</title>
-      <link>https://localhosta:1313/post/Primer-post/</link>
+      <link>http://localhosta:1313/post/Primer-post/</link>
       <pubDate>Wed, 11 Jan 2017 16:08:27 -0600</pubDate>
       
-      <guid>https://localhosta:1313/post/Primer-post/</guid>
+      <guid>http://localhosta:1313/post/Primer-post/</guid>
       <description>&lt;p&gt;En el día de mi entrevista pude darme cuenta, estaba entrando a un gran reto ya que aquí se tiene la ideología diciendo que se debe tener una buena base teórica de los conceptos  para llevar a cabo un correcto desempeño en el desarrollo.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://localhosta:1313/images/teoria.png&#34; alt=&#34;Teoria&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhosta:1313/images/teoria.png&#34; alt=&#34;Teoria&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;En primeros días en making devs, me logre dar cuenta que existían varias tecnología de las cuales apenas había escuchado y de otras no tenía ni la menor idea como son:&lt;/p&gt;
 
@@ -116,7 +116,7 @@
 
 &lt;p&gt;Después de investigar una serie de conceptos y teorías que me hacían falta reforzar para un conocimiento básico de las herramientas que en un futuro utilizaré, realice el siguiente documento como guía de estudio.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=1cnFEzMq8ghtzGYwAAsyEa-O6OOZbdzgKQUw9TMZ7ps4&#34;&gt;&lt;img src=&#34;https://localhosta:1313/images/doc.png&#34; alt=&#34;doc Logo&#34; /&gt;&lt;/a&gt; &lt;strong&gt;Dar clic en la imagen para ver documento&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=1cnFEzMq8ghtzGYwAAsyEa-O6OOZbdzgKQUw9TMZ7ps4&#34;&gt;&lt;img src=&#34;http://localhosta:1313/images/doc.png&#34; alt=&#34;doc Logo&#34; /&gt;&lt;/a&gt; &lt;strong&gt;Dar clic en la imagen para ver documento&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;En el documento se tratan conceptos en general desde que es orientación a objetos hasta tipos de shell o diferencias entre unix y linux y sus origines a grandes rasgos.&lt;/p&gt;
 

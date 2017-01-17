@@ -1,5 +1,5 @@
 theme="hurock"
-baseurl = "https://localhosta:1313/"
+baseurl = "http://localhosta:1313/"
 languageCode = "en-us"
 title = "Leos Vergara"
 MetaDataFormat = "toml"
