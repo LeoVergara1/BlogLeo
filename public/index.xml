@@ -2,43 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Leos Vergara</title>
-    <link>https://leovergara1.github.io/prueBlog/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Leos Vergara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2015 Copyright Text</copyright>
-    <lastBuildDate>Thu, 12 Jan 2017 15:07:41 -0600</lastBuildDate>
-    <atom:link href="https://leovergara1.github.io/prueBlog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Jan 2017 09:38:42 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Comandos en Unix y Linux</title>
+      <link>http://localhost:1313/post/Comandos/</link>
+      <pubDate>Tue, 17 Jan 2017 09:38:42 -0600</pubDate>
+      
+      <guid>http://localhost:1313/post/Comandos/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/comandos.png&#34; alt=&#34;Comnados&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Inicio en goHugo</title>
-      <link>https://leovergara1.github.io/prueBlog/post/Inicio-en-goHugo/</link>
+      <link>http://localhost:1313/post/Inicio-en-goHugo/</link>
       <pubDate>Thu, 12 Jan 2017 15:07:41 -0600</pubDate>
       
-      <guid>https://leovergara1.github.io/prueBlog/post/Inicio-en-goHugo/</guid>
+      <guid>http://localhost:1313/post/Inicio-en-goHugo/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;images/hugo1.png&#34; alt=&#34;Hugo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Prácticamente es un framework que sirve para realizar sitios estáticos.  A diferencia de otros sistemas que construyen dinámicamente una página cada vez que un visitante solicita una. Dado que los sitios web son vistos con mucha más frecuencia de lo que se editan, Hugo está optimizado para la visualización de página web al tiempo que proporciona una gran experiencia de la escritura.&lt;/p&gt;
+
+&lt;p&gt;Primero que nada visite la siguiente página para realizar la instalación y de igual manera familiarizarme con el framework ya que en ella se encuentra un pequeño tutorial de inicio rápido.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/hugo2_opt.jpg&#34; alt=&#34;Hugo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;De la siguiente manera seguí los pasos correspondientes.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Crear el proyecto en hugo con el siguiente comando &lt;strong&gt;$hugo new site BlogLeo&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Despues Agregar un pos de la siguiente manera &lt;strong&gt;$hugo new post/primero.md&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;em&gt;En este apartado debo comentar que en momentos tenía problemas a la hora de crear los post, ya que siempre se debe estar en la carpeta raíz del proyecto.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;3.Agregar un tema al proyecto para después ser publicado, esté se debe guardar en la carpeta “themes” o de lo contrario no funcionara.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Aquí fue un de los momentos donde tuve mayores problema ya que a la hora de tratar de llamar al tema había que hacer ciertas configuración en el config.tom para que funcionara.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;4.Finalmente se nos menciona como levantar un servidor local para visualizar nuestro sitio en la aplicación del navegador&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/captura1.png&#34; alt=&#34;Captura&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;En lo personal, pienso que al principio fue complicado de entender, principalmente la parte de los temas ya que si me tomo mucho tiempo lograr configurarlos a mi gusto, pero ya una vez hecho esto logre, hacer uso de ciertas herramientas de manera más sencilla.&lt;/p&gt;
+
+&lt;p&gt;Otro problema con el que me encontré fue con el de subir el sitio ya de manera pública, ya que tuve muchos problemas con las configuraciones para lograr hacer este proceso.&lt;/p&gt;
+
+&lt;p&gt;primero que nada tuve que realizar un proyecto con control de versiones mediante Git para así dejar una versión funcionando de manera local y en otra rama realizar las modificaciones correspondientes para subir el sitio a la red. Los problemas que encontré fueron:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Cargar el tema&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cargar imágenes&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modificar los vínculos de los post que el tema tenía predeterminados&lt;/strong&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Usar un tema correspondiente a la versión de hugo instalada&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conceptos básicos de Git para la conexión remota&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;En esta parte mi problema fue que confundí el origen del repositorio lo que no me permitia hacer un “git push” de manera correcta, posteriormente después de unos ejemplos con mis compañeros esto quedó de manera más clara así como las 3 formas de hacer el acceso remoto.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Clonar el repositorio y bajarlo a la pc&lt;/li&gt;
+&lt;li&gt;Subir al repositorio una carpeta ya creada&lt;/li&gt;
+&lt;li&gt;Crear un repositorio nuevo&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
     <item>
       <title>Cuearto post</title>
-      <link>https://leovergara1.github.io/prueBlog/post/Cuearto-post/</link>
+      <link>http://localhost:1313/post/Cuearto-post/</link>
       <pubDate>Thu, 12 Jan 2017 09:37:34 -0600</pubDate>
       
-      <guid>https://leovergara1.github.io/prueBlog/post/Cuearto-post/</guid>
+      <guid>http://localhost:1313/post/Cuearto-post/</guid>
       <description>&lt;p&gt;Hola como estas&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Inicio en Makings Devs</title>
-      <link>https://leovergara1.github.io/prueBlog/post/Primer-post/</link>
+      <link>http://localhost:1313/post/Primer-post/</link>
       <pubDate>Wed, 11 Jan 2017 16:08:27 -0600</pubDate>
       
-      <guid>https://leovergara1.github.io/prueBlog/post/Primer-post/</guid>
+      <guid>http://localhost:1313/post/Primer-post/</guid>
       <description>&lt;p&gt;En el día de mi entrevista pude darme cuenta, estaba entrando a un gran reto ya que aquí se tiene la ideología diciendo que se debe tener una buena base teórica de los conceptos  para llevar a cabo un correcto desempeño en el desarrollo.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;https://leovergara1.github.io/prueBlog/images/teoria.png&#34; alt=&#34;GitHub Logo&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/teoria.png&#34; alt=&#34;Teoria&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;En primeros días en making devs, me logre dar cuenta que existían varias tecnología de las cuales apenas había escuchado y de otras no tenía ni la menor idea como son:&lt;/p&gt;
 
@@ -61,7 +116,7 @@
 
 &lt;p&gt;Después de investigar una serie de conceptos y teorías que me hacían falta reforzar para un conocimiento básico de las herramientas que en un futuro utilizaré, realice el siguiente documento como guía de estudio.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=1cnFEzMq8ghtzGYwAAsyEa-O6OOZbdzgKQUw9TMZ7ps4&#34;&gt;&lt;img src=&#34;https://leovergara1.github.io/prueBlog/images/doc.png&#34; alt=&#34;GitHub Logo&#34; /&gt;&lt;/a&gt; &lt;strong&gt;Dar clic en la imagen para ver documento&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/open?id=1cnFEzMq8ghtzGYwAAsyEa-O6OOZbdzgKQUw9TMZ7ps4&#34;&gt;&lt;img src=&#34;http://localhost:1313/images/doc.png&#34; alt=&#34;doc Logo&#34; /&gt;&lt;/a&gt; &lt;strong&gt;Dar clic en la imagen para ver documento&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;En el documento se tratan conceptos en general desde que es orientación a objetos hasta tipos de shell o diferencias entre unix y linux y sus origines a grandes rasgos.&lt;/p&gt;
 

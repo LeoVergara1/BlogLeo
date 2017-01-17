@@ -7,7 +7,7 @@
   <meta name="description" content="Inicio en goHugo"/>
   <meta name="author" content=""/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <base href="https://leovergara1.github.io/prueBlog/" />
+  <base href="http://localhost:1313/" />
 
   <link rel="stylesheet" href="css/fonts.css"/>
   <link rel="stylesheet" href="css/normalize.css"/>
@@ -50,6 +50,51 @@
 <div class="post">
   <p><img src="images/hugo1.png" alt="Hugo" /></p>
 
+<p>Prácticamente es un framework que sirve para realizar sitios estáticos.  A diferencia de otros sistemas que construyen dinámicamente una página cada vez que un visitante solicita una. Dado que los sitios web son vistos con mucha más frecuencia de lo que se editan, Hugo está optimizado para la visualización de página web al tiempo que proporciona una gran experiencia de la escritura.</p>
+
+<p>Primero que nada visite la siguiente página para realizar la instalación y de igual manera familiarizarme con el framework ya que en ella se encuentra un pequeño tutorial de inicio rápido.</p>
+
+<p><img src="images/hugo2_opt.jpg" alt="Hugo" /></p>
+
+<p>De la siguiente manera seguí los pasos correspondientes.</p>
+
+<ol>
+<li>Crear el proyecto en hugo con el siguiente comando <strong>$hugo new site BlogLeo</strong></li>
+<li>Despues Agregar un pos de la siguiente manera <strong>$hugo new post/primero.md</strong>.</li>
+</ol>
+
+<p><em>En este apartado debo comentar que en momentos tenía problemas a la hora de crear los post, ya que siempre se debe estar en la carpeta raíz del proyecto.</em></p>
+
+<p>3.Agregar un tema al proyecto para después ser publicado, esté se debe guardar en la carpeta “themes” o de lo contrario no funcionara.</p>
+
+<p><em>Aquí fue un de los momentos donde tuve mayores problema ya que a la hora de tratar de llamar al tema había que hacer ciertas configuración en el config.tom para que funcionara.</em></p>
+
+<p>4.Finalmente se nos menciona como levantar un servidor local para visualizar nuestro sitio en la aplicación del navegador</p>
+
+<p><img src="images/captura1.png" alt="Captura" /></p>
+
+<p>En lo personal, pienso que al principio fue complicado de entender, principalmente la parte de los temas ya que si me tomo mucho tiempo lograr configurarlos a mi gusto, pero ya una vez hecho esto logre, hacer uso de ciertas herramientas de manera más sencilla.</p>
+
+<p>Otro problema con el que me encontré fue con el de subir el sitio ya de manera pública, ya que tuve muchos problemas con las configuraciones para lograr hacer este proceso.</p>
+
+<p>primero que nada tuve que realizar un proyecto con control de versiones mediante Git para así dejar una versión funcionando de manera local y en otra rama realizar las modificaciones correspondientes para subir el sitio a la red. Los problemas que encontré fueron:</p>
+
+<ol>
+<li><strong>Cargar el tema</strong></li>
+<li><strong>Cargar imágenes</strong></li>
+<li><strong>Modificar los vínculos de los post que el tema tenía predeterminados</strong><br /></li>
+<li><strong>Usar un tema correspondiente a la versión de hugo instalada</strong></li>
+<li><strong>Conceptos básicos de Git para la conexión remota</strong></li>
+</ol>
+
+<p>En esta parte mi problema fue que confundí el origen del repositorio lo que no me permitia hacer un “git push” de manera correcta, posteriormente después de unos ejemplos con mis compañeros esto quedó de manera más clara así como las 3 formas de hacer el acceso remoto.</p>
+
+<ol>
+<li>Clonar el repositorio y bajarlo a la pc</li>
+<li>Subir al repositorio una carpeta ya creada</li>
+<li>Crear un repositorio nuevo</li>
+</ol>
+
 </div>
 
 
@@ -79,7 +124,7 @@
 <div id="sidebar">
 <div class="sidebar">
   <div class="sidebar-about">
-    <a href="https://leovergara1.github.io/prueBlog/">
+    <a href="http://localhost:1313/">
       <img src="media/yo1.jpg" title="" alt="Me" />
       <h4 class="sidebar-title">Leos Vergara</h4>
     </a>
@@ -88,7 +133,7 @@
   <nav class="sidebar-nav">
     <ul class="sidebar-nav-list">
       <li class="sidebar-nav-item nav-home">
-        <span class="genericon genericon-home"></span><a class="sidebar-link" href="https://leovergara1.github.io/prueBlog/">Home</a>
+        <span class="genericon genericon-home"></span><a class="sidebar-link" href="http://localhost:1313/">Home</a>
       </li>
       <li class="sidebar-nav-item">
         <a class="genericon genericon-feed" href="post/index.xml"></a><a class="sidebar-link" href="post/">Post/</a>
