@@ -34,7 +34,7 @@ Después de investigar una serie de conceptos y teorías que me hacían falta re
 En el documento se tratan conceptos en general desde que es orientación a objetos hasta tipos de shell o diferencias entre unix y linux y sus origines a grandes rasgos.
 
 Personalmente esta tarea de iniciación me hizo darme cuenta de los elementos básicos que me hacían falta y que jamás debo de despreciar la teoría ya que es importante para el correcto entendimiento de las herramientas.
-Siempre he sido una persona que confía en sus habilidades y que se cree capaz, aún cuando la entrevista me hizo ver que me faltaba un largo camino que recorrer, no me desanimo al contrario mes gusta verlo como un recto y me motiva saber lo mucho que tengo que aprender para tener como primer fin lograr contribuir a mi equipo de trabajo.
+Siempre he sido una persona que confía en sus habilidades y que se cree capaz, aún cuando la entrevista me hizo ver que me faltaba un largo camino que recorrer, no me desanimo al contrario mes gusta verlo como un reto y me motiva saber lo mucho que tengo que aprender para tener como primer fin lograr contribuir a mi equipo de trabajo.
 
 
 
