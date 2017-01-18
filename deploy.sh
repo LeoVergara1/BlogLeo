@@ -16,7 +16,6 @@ rm -rf public/*
 hugo --buildDrafts
 cd public
 git checkout master
-echo "blog actualizado">>CNAME
 git add -A
 git commit -m "$comm"
 git push origin master --force
