@@ -23,7 +23,8 @@ copyright  = "© 2015 Copyright Text"
   disqusShortname = ""
   highlight_theme = "tomorrow-night"
   notoc = true
-
+disqusShortname = "leovergara11" 
+copyright  = "© 2015 Copyright Text"
 
 # Optional sections:
 [permalinks]
