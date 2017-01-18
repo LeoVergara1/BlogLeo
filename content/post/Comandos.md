@@ -5,4 +5,4 @@ title = "Comandos en Unix y Linux"
 
 +++
 
-![Comnados](/images/comandos.png)
+![Comnados](images/comandos.png)
