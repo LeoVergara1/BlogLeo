@@ -4,3 +4,6 @@
 [submodule "themes/hurock"]
 	path = themes/hurock
 	url = git@github.com:LeoVergara1/hurock.git
+[submodule "themes/hugo-ge"]
+	path = themes/hugo-ge
+	url = git@github.com:LeoVergara1/hugo-geo.git
