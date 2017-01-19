@@ -8,13 +8,12 @@ contentdir = "content"
 publishdir = "public"
 canonifyurls = true
 author ="Brandon Vergara"
-copyright = "Aprendiendo"
-
- 
+copyright = "Aprendiendo" 
 [indexes]
    category = "categories"
    tag = "tags"
 [Params]
+googleAnalytics = "UA-90564886-1"
   AuthorName = "Fredrik"
   github = "LeoVergara1"
   twitter = "LeoVergara2"
