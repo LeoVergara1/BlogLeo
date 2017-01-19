@@ -26,7 +26,7 @@ Shell Bourne (sh). Creado por S. Bourne, es el más utilizado en la actualidad. 
 Es un software que forma parte del sistema operativo, sirve para interpretar órdenes expresadas por líneas de comandos.
 En Unix es conocido como bash y en linux como ksh
 
-<center><IMG src="images/unixS.jpg"/></center>
+<center><IMG src="/images/unixS.jpg"/></center>
 
 # Diferencias entre estas dos shell 
 
@@ -37,4 +37,4 @@ En Unix es conocido como bash y en linux como ksh
 + bash soporta completar nombres de archivos y comandos usando la tecla "tab" 
 + ksh soporta una sintaxis del comando "cd" que permite moverse entre directorios de una manera más eficiente.
 
-<center>![Comnados](images/comandos.png)</center>
+<center>![Comnados](/images/comandos.png)</center>
