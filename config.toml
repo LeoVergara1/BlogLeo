@@ -26,5 +26,5 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   legalnotice = "/pages/legal-notice"
   muut = "fredrikloch"
   linkedin = "fredrikloch"
-  cover = "/images/background-cover.jpg"
-  logo = "/img/logo-1.jpg"
+  cover = "captura1.jpg"
+  logo = "static/images/me.jpg"
