@@ -28,6 +28,10 @@ Sin embargo el concepto que más claro me quedó fue el de **Integración contin
 
 Después de investigar una serie de conceptos y teorías que me hacían falta reforzar para un conocimiento básico de las herramientas que en un futuro utilizaré, realice el siguiente documento como guía de estudio.
 
+<iframe width="600px" height="600px" src="https://drive.google.com/open?id=1cnFEzMq8ghtzGYwAAsyEa-O6OOZbdzgKQUw9TMZ7ps4">
+  <p>Your browser does not support iframes.</p>
+</iframe>
+
 
 [![doc Logo](/images/doc.png)](https://drive.google.com/open?id=1cnFEzMq8ghtzGYwAAsyEa-O6OOZbdzgKQUw9TMZ7ps4) **Dar clic en la imagen para ver documento**
 
