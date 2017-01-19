@@ -7,7 +7,7 @@ paginate = 9 # To specify a multiple of 3
 contentdir = "content"
 publishdir = "public"
 canonifyurls = true
-author = "Fredrik Loch"
+author ="Brandon Vergara"
 copyright = "Aprendiendo"
 
  
@@ -17,14 +17,12 @@ copyright = "Aprendiendo"
 [Params]
   AuthorName = "Fredrik"
   github = "LeoVergara1"
-  bitbucket = "floch"
-  flickr = "senjin"
   twitter = "LeoVergara2"
   facebook = "leovergara"
   email = "mail@fredrikloch.me"
   description = ""
-  cv = "/pages/cv"
-  legalnotice = "/pages/legal-notice"
+  cv = ""
+  legalnotice = ""
   disqus = "disqusUsername"
   linkedin = ""
   cover = "https://raw.githubusercontent.com/LeoVergara1/Actual/master/images/background-cover.jpg"
