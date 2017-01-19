@@ -3,13 +3,13 @@ date = "2017-01-12T15:07:41-06:00"
 draft = true
 title = "Inicio en goHugo"
 +++
-![Hugo](images/hugo1.png)
+![Hugo](/images/hugo1.png)
 
 Prácticamente es un framework que sirve para realizar sitios estáticos.  A diferencia de otros sistemas que construyen dinámicamente una página cada vez que un visitante solicita una. Dado que los sitios web son vistos con mucha más frecuencia de lo que se editan, Hugo está optimizado para la visualización de página web al tiempo que proporciona una gran experiencia de la escritura.
 
 Primero que nada visite la siguiente página para realizar la instalación y de igual manera familiarizarme con el framework ya que en ella se encuentra un pequeño tutorial de inicio rápido.
 
-![Hugo](images/hugo2_opt.jpg)
+![Hugo](/images/hugo2_opt.jpg)
 
 De la siguiente manera seguí los pasos correspondientes.
 
@@ -24,7 +24,7 @@ De la siguiente manera seguí los pasos correspondientes.
 
 4.Finalmente se nos menciona como levantar un servidor local para visualizar nuestro sitio en la aplicación del navegador 
 
-![Captura](images/captura1.png)
+![Captura](/images/captura1.png)
 
 En lo personal, pienso que al principio fue complicado de entender, principalmente la parte de los temas ya que si me tomo mucho tiempo lograr configurarlos a mi gusto, pero ya una vez hecho esto logre, hacer uso de ciertas herramientas de manera más sencilla.
 

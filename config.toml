@@ -1,33 +1,30 @@
-theme="hurock"
+theme="hugo-uno"
 baseurl = "https://leovergara1.github.io/Actual/"
 languageCode = "en-us"
 title = "Brandon Vergara"
 MetaDataFormat = "toml"
 paginate = 9 # To specify a multiple of 3
+contentdir = "content"
+publishdir = "public"
+canonifyurls = true
+author = "Fredrik Loch"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 
-copyright  = "© 2015 Copyright Text"
-[author]
-  name = ""
-  email = ""
-  
-  github = "LeoVergara1"
-  twitter = "Leovergara2"
-  facebook = ""
-  googleplus = ""
-  linkedin = ""
-  gaID = "Google Analytics Tracking ID"
-
-[params]
-  Description = ""
-  # Optional
-  highlight_theme = "tomorrow-night"
-  notoc = true
-disqusShortname = "leovergara11" 
-copyright  = "© 2015 Copyright Text"
-
-# Optional sections:
-[permalinks]
-  posts = "/:year/:month/:filename/"
-
-[blackfriday]
-  plainIdAnchors = true
+ 
+[indexes]
+   category = "categories"
+   tag = "tags"
+[Params]
+  AuthorName = "Fredrik"
+  github = "Senjindarashiva"
+  bitbucket = "floch"
+  flickr = "senjin"
+  twitter = "senjindarshiva"
+  email = "mail@fredrikloch.me"
+  description = ""
+  cv = "/pages/cv"
+  legalnotice = "/pages/legal-notice"
+  muut = "fredrikloch"
+  linkedin = "fredrikloch"
+  cover = "/images/background-cover.jpg"
+  logo = "/img/logo-1.jpg"
