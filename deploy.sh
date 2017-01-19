@@ -19,6 +19,6 @@ git checkout master
 git add -A
 git commit -m "$comm"
 git push origin master --force
-echo "8.- Actualizado repositorio de makingdevs.github.io, revisa cambios en el blog ----------------------------"
+echo "8.- Actualizado repositorio, revisa cambios en el blog ----------------------------"
 
 echo "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
