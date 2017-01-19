@@ -25,6 +25,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-ShareAli
   cv = "/pages/cv"
   legalnotice = "/pages/legal-notice"
   muut = "leovergara1"
+  disqus = "disqusUsername"
   linkedin = ""
   cover = "https://raw.githubusercontent.com/LeoVergara1/Actual/master/images/background-cover.jpg"
   logo = "https://raw.githubusercontent.com/LeoVergara1/Actual/master/images/me.jpg"
