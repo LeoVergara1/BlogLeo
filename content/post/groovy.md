@@ -55,4 +55,4 @@ Para finalizar es importante mencionar las siguientes características del lengu
 
 * Admite el lenguaje tal cual de java dentro del código en caso de que no sepamos cómo escribirlo en groovy.
 * Groovy es capaz de emigrar todo el proyecto al código de java junto consus “.class” necesarios para correr desde la consola.
-* Con el uso de los cluseres dinámicos, definitivamente nuestra vida programando sera mas facil y obteniendo un nivel de programació con mejor nivel de tecnología.
+* Con el uso de los cluseres dinámicos, definitivamente nuestra vida programando sera mas facil y obteniendo un nivel de programació con mejor nivel de tecnología del momento.
