@@ -93,6 +93,7 @@ En lo personal decidí irme por el lado de las expresiones regulares con el leng
 
 Ahora trataré de mejorar mi código haciendo más entendible y mejor orientado
 
-Una vez visualizado el Código, logré hacer refactor a unas cuantas de linéas y el resultado fue el siguiente:
+Una vez visualizado el Código, logré hacer refactor a unas cuantas de líneas y el resultado fue el siguiente:
 
 ![SecondCode](/images/secondCode.png)
+
