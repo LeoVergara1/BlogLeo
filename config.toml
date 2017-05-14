@@ -1,4 +1,4 @@
-theme="hugo-uno"
+theme="hugo-tranquilpeak-theme"
 baseurl = "https://leovergara1.github.io/"
 languageCode = "en-us"
 title = "Brandon Vergara"
@@ -8,7 +8,7 @@ contentdir = "content"
 publishdir = "public"
 canonifyurls = true
 author ="Brandon Vergara"
-copyright = "Aprendiendo" 
+copyright = "Aprendiendo"
 [indexes]
    category = "categories"
    tag = "tags"
