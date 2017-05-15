@@ -7,22 +7,114 @@ paginate = 9 # To specify a multiple of 3
 contentdir = "content"
 publishdir = "public"
 canonifyurls = true
-author ="Brandon Vergara"
-copyright = "Aprendiendo"
-[indexes]
-   category = "categories"
-   tag = "tags"
-[Params]
 googleAnalytics = "UA-90564886-1"
-  AuthorName = "Fredrik"
-  github = "LeoVergara1"
-  twitter = "LeoVergara2"
-  facebook = "leovergara"
-  email = "mail@fredrikloch.me"
-  description = ""
-  cv = ""
-  legalnotice = ""
-  disqus = "https-leovergara1-github-io"
-  linkedin = ""
-  cover = "https://raw.githubusercontent.com/LeoVergara1/Actual/master/images/background-cover.jpg"
-  logo = "https://raw.githubusercontent.com/LeoVergara1/Actual/master/images/me.jpg"
+
+[author]
+  name ="Brandon Vergara"
+  bio = "Pasión por la programación y el analisis"
+  job = "Programador en Makingdevs"
+  location = "Mexico"
+  picture = "images/yo.jpg"
+[repmlinks]
+  post = "/:year/:month/:slug/"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+# Menu Configuration
+[[menu.main]]
+  weight = 0
+  identifier = "home"
+  name = "Home"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
+  url = "/"
+[[menu.main]]
+  weight = 1
+  identifier = "categories"
+  name = "Categories"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
+  url = "/categories"
+[[menu.main]]
+  weight = 2
+  identifier = "tags"
+  name = "Tags"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
+  url = "/tags"
+[[menu.main]]
+  weight = 3
+  identifier = "archives"
+  name = "Archives"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
+  url = "/archives"
+[[menu.main]]
+  weight = 4
+  identifier = "about"
+  name = "About"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  url = "/#about"
+
+[[menu.links]]
+  weight = 0
+  identifier = "github"
+  name = "GitHub"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-github\"></i>"
+  url = "https://github.com/LeoVergara1"
+[[menu.links]]
+  weight = 1
+  identifier = "stackoverflow"
+  name = "Stack Overflow"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
+  url = "https://stackoverflow.com/users/636472/kakawait"
+
+
+[[menu.links]]
+  weight = 1
+  identifier = "Facebook"
+  name = "Facebook"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-facebook\"></i>"
+  url = "https://www.facebook.com/leo.deuzumaki"
+
+
+[[menu.links]]
+  weight = 1
+  identifier = "Twitter"
+  name = "Twitter"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
+  url = "https://twitter.com/LeoVergara2"
+
+[[menu.misc]]
+  weight = 0
+  identifier = "Spotify"
+  name = "Spotify"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-spotify\"></i>"
+  url = "/index.xml"
+
+
+
+[params]
+  clearReading = true
+  hierarchicalCategories = true
+  description = "Blog de Leo"
+  sidebarBehavior = 4
+  coverImage = "cover.jpg"
+  imageGallery = true
+  thumbnailImage = true
+  thumbnailImagePosition = "bottom"
+  autoThumbnailImage = true
+  favicon = "/favicon.png"
+
+[params.header.rightLink]
+  class = ""
+  icon = ""
+  url = "/#about"
+
+[params.sidebar.profile]
+  class ="sidebar-profile"
+  icon = ""
+  url = "/#about"
+
+
+[params.footer]
+   copyright = "<a href=\"https://github.com/Leovergara1\">Brandon Vergara</a>"
