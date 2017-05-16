@@ -1,9 +1,10 @@
-+++
-date = "2017-01-17T09:38:42-06:00"
-draft = true
-title = "Comandos en Unix y Linux"
+---
+title: "Comandos en Unix y Linux"
+date: "2017-01-17T09:38:42-06:00"
+tag:
+- learn
+---
 
-+++
 
 
 
@@ -11,7 +12,7 @@ De momento puede parecer que los comandos de Unix y Linux son iguales ya que con
 
 # Un poco de historia…
 
-### Unix 
+### Unix
 
 La historia de UNIX  se remonta a 1969. A través de los años, se ha desarrollado y ha evolucionado a través de una serie de versiones distintas situaciones y entornos. Variantes de UNIX más modernos conocidos actualmente tienen licencia versiones de una de las ediciones originales de UNIX.
 
@@ -28,13 +29,15 @@ En Unix es conocido como bash y en linux como ksh
 
 <center><IMG src="/images/unixS.jpg"/></center>
 
-# Diferencias entre estas dos shell 
+# Diferencias entre estas dos shell
 
-+ ksh soporta arreglos asociativos 
-+ ksh permite acceder el valor de una variable usada en un loop fuera del mismo 
-+ bash maneja los códigos de salida "exit" a través de tuberías (pipes) de una manera mas clara. 
-+ ksh soporta el comando "print" el cual es más completo que el comando "echo". 
-+ bash soporta completar nombres de archivos y comandos usando la tecla "tab" 
++ ksh soporta arreglos asociativos
++ ksh permite acceder el valor de una variable usada en un loop fuera del mismo
++ bash maneja los códigos de salida "exit" a través de tuberías (pipes) de una manera mas clara.
++ ksh soporta el comando "print" el cual es más completo que el comando "echo".
++ bash soporta completar nombres de archivos y comandos usando la tecla "tab"
 + ksh soporta una sintaxis del comando "cd" que permite moverse entre directorios de una manera más eficiente.
 
 <center>![Comnados](/images/comandos.png)</center>
+
+"Todos podemos"

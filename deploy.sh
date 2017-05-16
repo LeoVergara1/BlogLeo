@@ -16,7 +16,7 @@ rm -rf public/*
 hugo --buildDrafts
 cd public
 touch CNAME
-echo +brandonvergara.me >> CNAME
+echo brandonvergara.me >> CNAME
 git checkout master
 git add -A
 git commit -m "$comm"

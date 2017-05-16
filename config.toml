@@ -9,7 +9,6 @@ publishdir = "public"
 canonifyurls = true
 googleAnalytics = "UA-90564886-1"
 disqusShortname = "https-leovergara1-github-io"
-pagina = 7
 [author]
   name ="Brandon Vergara"
   bio = "Pasión por la programación y el analisis"
