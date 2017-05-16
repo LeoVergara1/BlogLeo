@@ -1,5 +1,5 @@
 /themes/hurock
 /themes/hugo-uno
-/public
+public/
 *.DS_Store
 .DS_Store
