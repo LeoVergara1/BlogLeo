@@ -5,11 +5,8 @@ categories:
 - projects
 - releases
 tags:
-- hexo theme
 - responsive
-- gravatar
-- disqus
-- google analytics
+- Experience
 keywords:
 - disqus
 - google
