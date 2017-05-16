@@ -1,6 +1,6 @@
 +++
 categories = ["category","subcategory"]
-date: "2017-01-17T09:38:42-06:00"
+date = "2017-01-14T00:00:00Z"
 keywords = ["tech"]
 tags = ["learn","tag2"]
 title = "Comandos en Unix y Linux"
