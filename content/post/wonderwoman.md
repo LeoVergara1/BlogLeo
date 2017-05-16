@@ -70,3 +70,36 @@ Una vez terminado todo este proceso se habilita un botón, el cual nos dará el 
 - Drag and Drop para pc, móvil y tablet.
 - Función responsiva para todos los tipos de pantalla.
 - Programación de cada elemento, para que realicen lo deseado.
+
+# Proyección en 3D.
+
+Dicho proyecto fue realizado haciendo equipo con mi compañero Gamma así mismo dividiendo las tareas del proyecto, en el transcurso de la investigación encontramos un plugin llamado THREE.js el cual tiene un cierto grado de complejidad ya que como bases necesitas tener un buen conocimiento en  geometría del espacio para entender como se harán las proyecciones de los elementos ya que estas se basan en una plano cartesiano de 3 ejes en donde se toma mucho en cuenta el foco, el eje de la figura, y la cámara para la proyección, no profundizare mucho es tema pues ya realizare un post solo para esta tecnología.
+En lo personal al principio fue un poco difícil entender todas las características del plugin para hacer un buen uso de él, pero con un poco de dedicación y lectora a su documentación, se logro realizar lo requerido, que era proyectar el brazalete.
+
+# Drag and Drop para pc, móvil y tablet.
+
+Para esta parte nos ayudamos de otro plugin llamado “JQueryUI” él cual nos facilito la funcionalidad para hacer la parte que nos permite arrastrar los elementos a una área en especifico, cabe mencionar que con este plugin no se logra hacer que la aplicación funcione en los dispositivos móviles, y de momento creíamos que resultaría mas difícil cumplir con esta funcionalidad pero basto que buscar un poco en la internet y encontramos nuevamente un plugin llamado “JQueryUI-Touch” la cual se encarga de registrar el evento del touch, en los dispositivos móviles.
+
+# Función responsiva para todos los tipos de pantalla.
+
+Aquíiento satisfecho de lo logrado y feliz de verlo publicado en una página oficial donde todo mundo puede interactuar con la aplicación.lo complicado no era saber como hacerlo si no el tiempo y código que se requería para realizar esta parte, se podría decir que solo fue un momento de muy “talachudo” como diríamos vulgarmente 😃 ya que se tenía que cuidar el correcto funcionamiento de la aplicación en cualquier pantalla.
+
+# Programación de cada elemento, para que realicen lo deseado.
+
+Lo nombro así, para hablar un poco sobre las complicaciones que se tuvo para realizar dicha aplicación, como por ejemplo:
+
+- Que las figuras no se salieran de los limites.
+- Los elementos reconocieran donde están ubicados y en función a ello supieran interactuar con los demás.
+- Cambiar de nuevo sus ambientes en el momento que se eliminan.
+- Crear una area DRAG, DROP y una PREVIW (proyección).
+- Que todos los elementos se conozcan, sepan de su existencia y en función a eso tengan ciertas propiedades.
+- La proyección trabaja en efecto a los elementos que están en el área DROP y así mismo cuando no estén o sean cambiados
+- Despliegue del menu para ocultar los elementos que están contenidos.
+
+La verdad es que varias de estas tarea son las mas destacables entre muchas otras y algunas ocasionaron dolores de cabeza, pero con tiempo y dedicación de puede lograr.
+
+Por ultimo quiero mencionar que en general este proyecto me gusto mucho ya que me deja un gran aprendizaje y una experiencia en nuevas tecnologías, de igual manera el trato que se lleva con el cliente y como este puede ir cambiando los requerimientos al momento que se va realizando la aplicación, es curioso a veces el concepto que ellos llegan a tener sobre la complejidad de realizar una aplicación ya que pareciera que solo es decirle a la computadora “Haz esto” y magiacamiente lo haga, pero así entendí que también es importante saber transmitir al cliente  el proceso por el que tenemos que pasar para lograr cumplir con sus requerimientos.
+
+Me siento satisfecho de lo logrado y feliz de verlo publicado en una página oficial donde todo mundo puede interactuar con la aplicación.
+
+Link de la aplicación: http://www.wondercode.com.mx

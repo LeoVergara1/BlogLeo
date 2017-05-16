@@ -7,6 +7,7 @@ paginate = 9 # To specify a multiple of 3
 contentdir = "content"
 publishdir = "public"
 canonifyurls = true
+disqusShortname = "https-leovergara1-github-io"
 googleAnalytics = "UA-90564886-1"
 
 [author]
@@ -66,7 +67,7 @@ googleAnalytics = "UA-90564886-1"
   identifier = "stackoverflow"
   name = "Stack Overflow"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-stack-overflow\"></i>"
-  url = "https://stackoverflow.com/"
+  url = "https://es.stackoverflow.com/users/42896/leo-vergara"
 
 
 [[menu.links]]
