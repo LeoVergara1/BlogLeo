@@ -15,6 +15,8 @@ echo "7.- Actualizando contenido estático del blog"
 rm -rf public/*
 hugo --buildDrafts
 cd public
+touch CNAME
+echo +brandonvergara.me >> CNAME
 git checkout master
 git add -A
 git commit -m "$comm"

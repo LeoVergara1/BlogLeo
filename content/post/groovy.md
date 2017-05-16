@@ -1,9 +1,10 @@
-+++
-date = "2017-01-18T13:38:40-06:00"
-draft = true
-title = "Groovy Programming"
-
-+++
+---
+title: "Groovy Programming"
+date: "2017-01-18T13:38:40-06:00"
+tags:
+- Programming languages
+- learn
+---
 
 Primero que nada daré una breve descripción de lo que es groovy. Es un lenguaje ágil y dinámico para la máquina virtual de java, *“Construido sobre las fortalezas de Java pero tiene características adicionales de poder inspiradas por lenguajes como Python, Ruby y Smalltalk” (MakingDevs)*
 
