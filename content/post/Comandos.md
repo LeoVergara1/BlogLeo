@@ -39,3 +39,5 @@ En Unix es conocido como bash y en linux como ksh
 + ksh soporta una sintaxis del comando "cd" que permite moverse entre directorios de una manera más eficiente.
 
 <center>![Comnados](/images/comandos.png)</center>
+
+"Todos podemos"
