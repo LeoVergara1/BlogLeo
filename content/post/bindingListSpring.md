@@ -21,11 +21,11 @@ title: "Mapear lista dinámica con spring 4"
 metaAlignment: center
 ---
 
-
 Este problema lo planteo para cuando nos encontramos en una situación donde deseamos mapear un formulario dinamico y sus datos sean ligados (binding) con un controller, de esta manera nos evitamos tener que estar capturando cada elemento de un formulario conforme va creciendo.
 
 Lo primero es tener bien definidos los nombres de un pojo con los inpust de tu formulario como se muestra en el siguiente ejemplo.
 
+<!--more-->
 ``` java
 package mx.edu.ebc.api.pojo
 
