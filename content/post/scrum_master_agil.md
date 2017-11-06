@@ -43,7 +43,7 @@ La verdad es que siempre se obtiene un manifiesto ágil como se ve en la siguien
 
 Siempre que se hace referencia a nuevo proyecto es muy cierto que nuestra principal prioridad es la satisfacción del cliente mediante entregas continuas y oportuna.
 
-Pero es importante saber que en el mundo harba clientes que tengan contratos fijos con prioridades importantes a las cuales ellos le otorgan un lapso de tiempo considerado por ellos mismos, por eso mismo siempre tenemos que cargar con 3 simples verdades que nos salvaran en los proyectos:
+Pero es importante saber que en el mundo habrá clientes que tengan contratos fijos con prioridades importantes a las cuales ellos le otorgan un lapso de tiempo considerado por ellos mismos, por eso mismo siempre tenemos que cargar con 3 simples verdades que nos salvaran en los proyectos:
 
 - Es imposible obtener todos los requerimientos al principio de un proyecto.
 - Cualquier requerimiento que obtengas esta garantizado a cambiar.
@@ -105,7 +105,7 @@ Por otro lado un scrum master jamas debe ser un lider, al contrarió "el mejor s
 
 **¿Se puede ser programador y Scrum master a la vez?**
 
-La verdad es que esta tare se considera como de tiempo completo, si se quiere ejecutar de manera optima, sin embargo se considera que cualquiera que tenga conocimiento de los valores ágiles y del framework puede actua como scrum master, considerando que sus demas tareas se pueden ver afectas en su velocidad.
+La verdad es que esta tarea se considera como de tiempo completo, si se quiere ejecutar de manera óptima, sin embargo se considera que cualquiera que tenga conocimiento de los valores ágiles y del framework puede actua como scrum master, considerando que sus demas tareas se pueden ver afectas en su velocidad.
 
 **Estimaciones**
 
@@ -119,7 +119,7 @@ Nosotros somos personas expertos en comer ya que llevamos toda nuestra vida comi
 - Le atinaste al resultado? supongamos que tardaste 40 segundos en comerla, entonces si debiéramos comer 10 galletas seguidas.
 - Tardaríamos 400 segundos?.
 
-Y lo mas seguro es que no logremos hacerlo seguro porque interfieren otros factores como la capacidad de cada persona para comer, o que tal vez necesites un baso de leche para realizar la tarea, lo importante ver aquí es que son esfuerzos totalmente diferente y es por eso que ágil propone la catalogar a las tareas como puntos de esfuerzo.
+Y lo mas seguro es que no logremos hacerlo seguro porque interfieren otros factores como la capacidad de cada persona para comer, o que tal vez necesites un baso de leche para realizar la tarea, lo importante ver aquí es que son esfuerzos totalmente diferente y es por eso que ágil propone catalogar a las tareas como puntos de esfuerzo.
 
 <img src="/images/Agil/estimate.PNG">
 
@@ -141,7 +141,7 @@ De esta forma nos obligamos a considerar mas cosas a nuestro al rededor y hacer 
 
 Para esto también es muy importante la comunicación del equipo para que ellos logren apoyarse entre si cuando uno se encuentre en un problema ya sea personal o con la tecnología.
 
-Y es aquí cuando se ve verdaderamente la importancia de los daily diarios, para lograr saber en que se encuentra cada integrante de nuestro equipo.
+Y es aquí cuando se ve verdaderamente la importancia de los daily, para lograr saber en que se encuentra cada integrante de nuestro equipo.
 
 Una herramienta que nos puede ayudar notablemente a este tipo de organización es la herramienta KANBAN lo cual nos sirve para gestionar nuestro trabajo intelectual.
 
@@ -157,7 +157,7 @@ Y con este tipo de control lograremos tener proyecciones del avance incremental 
 
 **Conclusión**
 
-En lo personal creo que el tomar este curso más que darme conocimiento ya sea teórico o practico me cambio como persona ya que ahora veo que lo mas importante para que una persona pueda ser ágil no son las habilidades profesionales, si no más bien nuestras aptitudes y valores que nos constituyen como persona, un claro ejemplo de ello podría ser la siguiente frase:
+En lo personal creo que el tomar este curso más que darme conocimiento ya sea teórico o practico me cambió como persona ya que ahora veo que lo mas importante para que una persona pueda ser ágil no son las habilidades profesionales, si no más bien nuestras aptitudes y valores que nos constituyen como persona, un claro ejemplo de ello podría ser la siguiente frase:
 
 "Nuestro mejor tiempo como individuo es nuestro peor tiempo como equipo y nuestro peor tiempo como individuo es nuestro mejor tiempo como equipo" -> José Juan Reyes Zuñiga.
 
