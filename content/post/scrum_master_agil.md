@@ -1,5 +1,5 @@
 ---
-title: "Agil - Scrum Master (Por Makingdevs)"
+title: "Ágil - Scrum Master (Por Makingdevs)"
 date: 2017-10-05
 categories:
 - projects
