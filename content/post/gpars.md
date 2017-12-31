@@ -35,7 +35,7 @@ Una forma sencilla de manejar el paralelismo en groovy (Java)
 
 Como ya sabemos uno de los principales problemas de la programación, es el hecho de que la mayoría de las funciones son ejecutadas con forma de sincronía siempre resolviendo uno por uno, en este post no profundizare sobre ningún tema en especial, pero si buscare causarte la inquietud sobre como una vez más groovy es la mejor alternativa si no te quieres despegar de java jeje.
 
-Ahora imagina que tienes un problema donde necesitas hacer mil peticiones, y piensas que no ay problema porque el servicio web contesta muy rápido, suponiendo que tienes una super maquina que lo resolvería en 5 minutos, ahora plantea 1 millón de peticiones creo que la persona se cansara de esperar a que termine el proceso jeje, lo primero que se vendrá a tu mente sera el manejos de hilos en java, aunque es una soluciones no suele ser muy fácil aplicarlo ya que siempre tendremos un gran problema a la hora de ver los resultados, ya que perdemos el comportamiento de los mismos.
+Ahora imagina que tienes un problema donde necesitas hacer mil peticiones, y piensas que no hay problema porque el servicio web contesta muy rápido, suponiendo que tienes una super maquina que lo resolvería en 5 minutos, ahora plantea 1 millón de peticiones creo que la persona se cansara de esperar a que termine el proceso jeje, lo primero que se vendrá a tu mente sera el manejos de hilos en java, aunque es una soluciones no suele ser muy fácil aplicarlo ya que siempre tendremos un gran problema a la hora de ver los resultados, ya que perdemos el comportamiento de los mismos.
 
 Y parece sencillo entender el comportamiento de los hilos, ya que solo tenemos que verlos como procesos independientes.
 
