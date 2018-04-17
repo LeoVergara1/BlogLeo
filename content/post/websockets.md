@@ -30,7 +30,7 @@ coverImage: /images/WebSockets/logo.jpg
 metaAlignment: center
 ---
 
-En este post tratare de da un ejemplo sencillo de como hacer websockets con vertx y así mismo tratar de que se entienda como es que funcionan los websockets y su gran ventaja.
+En este post tratare de dar un ejemplo sencillo de como hacer websockets con vertx y así mismo tratar de que se entienda como es que funcionan los websockets y su gran ventaja.
 
 ¿Que es un WebSocket?
 
