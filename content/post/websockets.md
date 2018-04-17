@@ -120,3 +120,67 @@ Ahora realizaremos la parte del JS para entablar la comunicación.
 Como recomendación se realizara un js de la forma de una clase para que está nos entregue una instancia de vertx y así lograr realizar un "Send" o "Consumer" según sea el caso 
 
 <img src="/images/WebSockets/Image.png" style="width: 80%; height: 80%">
+
+Constructor: 
+ Inicia nuestro Eventbus js con la url y el puerto de nuestra aplicación, así mismo genera los métodos que harán referencia a nuestro objeto principal.
+
+Send: 
+Recibe una dirección la cual será la que deberá hacer match con el consumer creado del lado del servidor, el segundó mensaje que mandaremos sera nuestro mensaje, siempre debe de ser un string.
+
+Consumer: 
+Serán las funciones que estarán disponibles del lado del cliente para que el servidor se comunique con ellos.
+
+Esta instancia podremo crearla en otro archivo de la siguiente manera:
+
+```
+varticleManagerSend = VerticleManager.getInstance();
+```
+
+Ahora crearemos un botón en el html para ser escuchado y que este envié un mensaje de prueba a nuestro cliente.
+
+Para el ejemplo estará bien de la siguiente forma:
+
+
+<img src="/images/WebSockets/buttonClick.PNG" style="width: 80%; height: 80%">
+
+usaremos nuestra instancia para mandar un mensaje al servidor
+
+<img src="/images/WebSockets/buttonSend.PNG" style="width: 80%; height: 80%">
+
+
+Para que nuestro mensaje sea escuchado deberemos tener un consumer del lado del servidor como lo siguiente:
+
+<img src="/images/WebSockets/consumer.PNG" style="width: 80%; height: 80%">
+
+De tal manera que cuando demos click a el botón pasara lo siguiente:
+
+<img src="/images/WebSockets/servidorMsg.PNG" style="width: 80%; height: 80%">
+
+Por ultimo nos falta ver como mandar un mensaje del servidor al cliente y usaremos el mismo ejemplo.
+Primero declararemos un consumer del lado del cliente:
+
+<img src="/images/WebSockets/consumerVer.PNG" style="width: 80%; height: 80%">
+
+Este lleva dos parámetros el primero es la dirección y el segundó es una función donde en ella se ejecutara todo lo deseado una vez que se recibe un mensaje.
+
+Finalmente regresaremos al consumer creado en el servidor para agregar lo siguiente:
+
+
+<img src="/images/WebSockets/consumerReturn.PNG" style="width: 80%; height: 80%">
+
+Y se mostrara lo siguiente en la consola de nuestro navegador:
+
+<img src="/images/WebSockets/ChromeCOnsole.PNG" style="width: 80%; height: 80%">
+
+
+
+Cosas importantes que se deben saber:
+
+* Para un consumer en js siempre se deberá crear una nueva instancia ya que si se usa la misma tendrá conflictos con los demás consumers ya que los sobrescribe 
+* Siempre se deberán mandar mensajes, si deseas un objeto mándalo en forma de JSON y transformalo del lado del cliente.
+* Este ejemplo es una parta de un mini proyecto, y se deja una demostración del mismo así como el repo.
+
+
+
+<img src="/images/WebSockets/exampleVertx.gif" style="width: 80%; height: 80%">
+
