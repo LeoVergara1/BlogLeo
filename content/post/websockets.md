@@ -30,17 +30,17 @@ coverImage: /images/WebSockets/logo.jpg
 metaAlignment: center
 ---
 
-En este post tratare de dar un ejemplo sencillo de como hacer websockets con vertx y así mismo tratar de que se entienda como es que funcionan los websockets y su gran ventaja.
+En este post trataré de dar un ejemplo sencillo de como hacer websockets con vertx y así mismo tratar de que se entienda como es que funcionan los websockets y su gran ventaja.
 
 ¿Que es un WebSocket?
 
 Es un API con una tecnología que busca establecer una conexión entre el usuario cliente (Navegador) y el servidor mediante esta funcionalidad se permite el envió de mensajes y respuestas constroladas atravez de un único canal de comunicación ya previamente establecido
 
-Por ejemplo en el caso de las peticiones por AJAX del método HTTP ya sea GET o POST pasa lo siguiente, cada vez que uno de ellos trata de comunicarse necesitan establecer comunicación lo cual vuelve lento la transferencia de información entre ellos, a diferencia de un socket que sólo hace una única vez para establecer la comunicación y el canal permanece abierto pera así manejar la comunicación de la información de una forma rápida y transparente.
+Por ejemplo en el caso de las peticiones por AJAX del método HTTP ya sea GET o POST pasa lo siguiente, cada vez que uno de ellos trata de comunicarse necesitan establecer comunicación lo cual vuelve lento la transferencia de información entre ellos, a diferencia de un socket que sólo hace una única vez para establecer la comunicación y el canal permanece abierto para así manejar la comunicación de la información de una forma rápida y transparente.
 
 Una vez sabido un poco de lo que se refiere con websocket pasaremos a ver un sencillo ejemplo donde aprovecharemos todo el potencial de ello, así mismo lo que nos ofrece la tecnología de vertx para resolver ciertas cosas.
 
-Problema: Simular la comprar de boletos de manera simultanea donde el boleto estará disponible en tiempo real para N clientes, y así mismo la persona que logre comprarlo primero sera el ganador de él, de tal manera que los demás clientes sepan que ocurre con el boleto en tiempo real.
+Problema: Simular la compra de boletos de manera simultanea donde el boleto estará disponible en tiempo real para N clientes, y así mismo la persona que logre comprarlo primero sera el ganador de él, de tal manera que los demás clientes sepan que ocurre con el boleto en tiempo real.
 
 Lo necesario: 
 
@@ -105,7 +105,7 @@ serviceShell.start();
 server.requestHandler(router.&accept).listen(8080)
 ```
 
-En esta configuración solo estamos desplegandon una pequeña apliación para escuchar nuestro router en un puerto.
+En esta configuración solo estamos desplegando una pequeña apliación para escuchar nuestro router en un puerto.
 
 BridgeOtions 
 
@@ -130,7 +130,7 @@ Recibe una dirección la cual será la que deberá hacer match con el consumer c
 Consumer: 
 Serán las funciones que estarán disponibles del lado del cliente para que el servidor se comunique con ellos.
 
-Esta instancia podremo crearla en otro archivo de la siguiente manera:
+Esta instancia podremos crearla en otro archivo de la siguiente manera:
 
 ```
 varticleManagerSend = VerticleManager.getInstance();
