@@ -10,3 +10,7 @@
 [submodule "themes/hugo-tranquilpeak-theme"]
 	path = themes/hugo-tranquilpeak-theme
 	url = git@github.com:LeoVergara1/hugo-tranquilpeak-theme.git
+[submodule "themes/hugo-icarus-theme"]
+	path = themes/hugo-icarus-theme
+  url = git@github.com:digitalcraftsman/hugo-icarus-theme.git
+
