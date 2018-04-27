@@ -50,9 +50,12 @@ podemos confimar las mauinas corriendo en VB: ansible_elixir_buid-host y ansible
 
 Si todo esta en orden, deberemos porder conectarnos a la maquina mediante lo siguiente:
 
-ssh vagrant@192.168.60.7
+**ssh vagrant@192.168.60.7**
+
 Está es la mauina donde construiremos nuestro proyecto para posteriormente mandar el release a producció
-ssh vagrant@192.168.60.8
+
+**ssh vagrant@192.168.60.8**
+
 Maquina de prueba en el caso de que querer simular producción
 
 Ya que nos sercioramos de que todo esto está en correcto orden pasaremos a la configuración de nuestro proyecto
