@@ -1,6 +1,6 @@
 ---
 title: "Deploy elixir"
-date: 2018-02-03
+date: 2018-04-27
 categories:
 - projects
 - releases
@@ -18,7 +18,7 @@ keywords:
 - distillery 
 autoThumbnailImage: false
 thumbnailImagePosition: "top"
-thumbnailImage: /images/deployElixir/phoenix.png
+thumbnailImage: /images/deployElixir/elixir-tumbel.png
 coverImage: /images/deployElixir/phoenix.png
 metaAlignment: center
 ---
@@ -45,6 +45,8 @@ vagrant up
 
 podemos confimar las mauinas corriendo en VB: ansible_elixir_buid-host y ansible_elixir_test-host
 
+<img src="/images/deployElixir/virtualBox.png">
+
 
 Si todo esta en orden, deberemos porder conectarnos a la maquina mediante lo siguiente:
 
@@ -61,10 +63,14 @@ En el archivo mix.exs de tu proyecto agregar edeliver and distullery como depend
       {:distillery, "~> 1.4", runtime: false}
 
 
+<img src="/images/deployElixir/depedences.png">
+
 Posterior a ese paso sólo deberemos verificar que el proyecto siga en orden compilando las dependencias:
 
 
+``` java
  mix do deps.get, compile
+```
 
 
 Ahora continuaremos con el archivo de configuración edelivery
@@ -76,82 +82,42 @@ Ahora continuaremos con el archivo de configuración edelivery
 
 	APP="nombre-de-tu-app"
 
-	 
-
 	BUILD_HOST="192.168.60.7"
-
 	BUILD_USER="vagrant"
-
 	BUILD_AT="/home/vagrant/builds"
 
-	 
-
 	STAGING_HOSTS="192.168.60.8"
-
 	STAGING_USER="vagrant"
-
 	TEST_AT="/home/vagrant/releases"
-
-	 
 
 	pre_erlang_get_and_update_deps() {
 
 	local _prod_secret_path="$WORKSPACE/$APP/config/prod.secret.exs"
-
-	 
-
 	if [ "$TARGET_MIX_ENV" = "prod" ]; then
-
 	status "Copying '$_prod_secret_path' file to build host"
-
 	scp "$_prod_secret_path" "$BUILD_USER@$BUILD_HOST:$BUILD_AT/config/prod.secret.exs"
-
-	 
-
 	fi
 
 	}
-
-	 
-
 	pre_erlang_clean_compile() {
-
 	local _profile_path="$WORKSPACE/$APP/config/profile"
-
-	 
-
 	if [ "$TARGET_MIX_ENV" = "prod" ]; then
-
 	status "Copying '$_profile_path' file to build host"
-
 	scp "$_profile_path" "$BUILD_USER@$BUILD_HOST:$BUILD_AT/../.profile"
-
-	 
-
 	status "Preparing assets with: brunch build and phoenix.digest"
-
 	__sync_remote "
-
 	set -e
-
 	cd '$BUILD_AT/assets'
-
-	 
 
 	npm install
 
 	node_modules/brunch/bin/brunch build --production
 
-	 
-
 	cd '$BUILD_AT'
 
 	APP='$APP' MIX_ENV='$TARGET_MIX_ENV' $BUILD_CMD phoenix.digest $SILENCE
-
 	"
-
 	fi
-
 	}
 
 ```
@@ -203,11 +169,22 @@ config :phoenix, :serve_endpoints, true # es importante esta linea ya que es qui
 
 Una vez terminado todo esto sólo deberemos ejecutar los siguientes comandos
 
+```java 
 mix edeliver build release
+```
+<img src="/images/deployElixir/build.png">
 
+```java 
 mix edeliver deploy release to production
+```
 
+<img src="/images/deployElixir/deploy.png">
+
+```java 
 mix edeliver start production
+```
+
+<img src="/images/deployElixir/start.png">
 
 Con este comando pueden comprobar el funcionamiento de su servidor
 mix edeliver ping production
@@ -215,7 +192,9 @@ Asegurense de terner abierto el puerto 4000 en su server ya que es donde por def
 
 En caso de tener migraciones de base de datos deberemos ejecutar el siguiente comando
 
+```java 
 mix edeliver migrate production
+```
 
 
 Conslusion:
