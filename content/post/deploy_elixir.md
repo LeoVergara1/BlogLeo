@@ -1,5 +1,5 @@
 ---
-title: "Deploy elixir"
+title: "Desplegar Elixir con edeliver Phoenix (Deploy Elixir with edeliver Phoenix)"
 date: 2018-04-27
 categories:
 - projects
