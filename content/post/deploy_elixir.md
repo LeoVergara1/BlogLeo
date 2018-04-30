@@ -35,7 +35,7 @@ Esto lo necesitamos porque tenemos que hacer la construcción del proyecto desde
 
 Vagrant
 
-Para la mauina virtual usaremos una que previmente ya ha sido configurada por Felipe Juarez, para ello descargaremos el siguiente repositorío:
+Para la maquina virtual usaremos una que previmente ya ha sido configurada por Felipe Juarez, para ello descargaremos el siguiente repositorío:
 
 https://github.com/sohjiro/ansible_elixir
 
@@ -43,16 +43,16 @@ Entraremos al repositorío y ejecutaremos el siguiente comando:
 
 vagrant up
 
-podemos confimar las mauinas corriendo en VB: ansible_elixir_buid-host y ansible_elixir_test-host
+podemos confimar las maquinas corriendo en VB: ansible_elixir_buid-host y ansible_elixir_test-host
 
 <img src="/images/deployElixir/virtualBox.png">
 
 
-Si todo esta en orden, deberemos porder conectarnos a la maquina mediante lo siguiente:
+Si todo esta en orden, deberemos poder conectarnos a la maquina mediante lo siguiente:
 
 **ssh vagrant@192.168.60.7**
 
-Está es la mauina donde construiremos nuestro proyecto para posteriormente mandar el release a producció
+Está es la maquina donde construiremos nuestro proyecto para posteriormente mandar el release a producción
 
 **ssh vagrant@192.168.60.8**
 
@@ -156,7 +156,7 @@ export DATABASE_HOST=localhost
 export DATABASE_PORT=5432
 ```
 
-Para esto necesitas actuliaziar tu archivo de "prod.exs"
+Para esto necesitas actualizar tu archivo de "prod.exs"
 
 ```java
 config :ex_typeracer, ExTyperacerWeb.Endpoint,
@@ -202,7 +202,7 @@ mix edeliver migrate production
 
 Conslusion:
 
-Realmente no parece ser complicado realizar estos pasos, pero si es necesario tener como al menos bien entendidos los conceptos de vagrant y ansible, así como conocimientos basicos de sus configuraciones o comandos. Me sorprede y me agrada mucho que la elixir compile el proyecto basandose en la maquina que se esta ejecutando para así porder aprovechar el hardware al máximo.
+Realmente no parece ser complicado realizar estos pasos, pero si es necesario tener como al menos bien entendidos los conceptos de vagrant y ansible, así como conocimientos basicos de sus configuraciones o comandos. Me sorprede y me agrada mucho que la elixir compile el proyecto basandose en la maquina que se esta ejecutando para así poder aprovechar el hardware al máximo.
 
 Si quisieran implementar continuso delivery por medio de un jeinkins como consejo se debera tener un script que por medio se ssh sea ejecutado a nuestro servidor de despliegue para evitar cualquier tipo de problema en la comunicación de los comandos y esto es más que nada por el hardware entre las dos maquinas.
 
