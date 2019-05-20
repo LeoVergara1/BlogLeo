@@ -11,7 +11,7 @@ googleAnalytics = "UA-90564886-1"
 disqusShortname = "https-leovergara1-github-io"
 [author]
   name ="Brandon Vergara"
-  bio = "Pasión por la programación y el analisis"
+  bio = "Pasión por la programación y el analisis **(leovergara.dark@gmail.com)**"
   job = "Desarrollador en Makingdevs"
   location = "Mexico"
   picture = "images/yo.jpg"
@@ -97,7 +97,7 @@ disqusShortname = "https-leovergara1-github-io"
   clearReading = true
   hierarchicalCategories = true
   description = "Blog de Leo"
-  sidebarBehavior = 4
+  sidebarBehavior = 1
   coverImage = "cover.jpg"
   imageGallery = true
   thumbnailImage = true
