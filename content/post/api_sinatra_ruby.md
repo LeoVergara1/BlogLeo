@@ -28,7 +28,7 @@ metaAlignment: center
 
 ## ¿Que es Sinatra?
 
-Es un framework de desarrollo para servicios web por medio de ruby usando protocolos HTTP.
+Es un DSL de desarrollo para servicios web por medio de ruby usando protocolos HTTP.
 
 En resumen: **Es simple, pero poderoso**. =) Y esta apoyado y motivado por Heroku y Github
 
