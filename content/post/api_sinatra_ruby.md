@@ -20,15 +20,15 @@ keywords:
 - Sinatra
 autoThumbnailImage: false
 thumbnailImagePosition: "top"
-thumbnailImage: /images/Quartz/quartz.png
-coverImage: /images/Quartz/java.png
+thumbnailImage: /images/apiSinatra/Sinatra_tiny.png
+coverImage: /images/apiSinatra/Sinatra_tiny.png
 metaAlignment: center
 ---
 **Api simple con sinatra y ruby**
 
 ## ¿Que es Sinatra?
 
-Es un framework de desarrollo para servicios web por medio de ruby usando protocoles HTTP.
+Es un framework de desarrollo para servicios web por medio de ruby usando protocolos HTTP.
 
 En resumen: **Es simple, pero poderoso**. =) Y esta apoyado y motivado por Heroku y Github
 
@@ -63,17 +63,54 @@ Ahora en la terminal colocar
 ````bash
 ruby server.rb
 ````
-Listo podremos verificar nuestra aplicación en el navegador
+Listo, podremos verificar nuestra aplicación en el navegador
 
 ## Mysql
+
+Usar código sólo si es necesario, ya que la aplicación conecta y crea la tabla con un usuario si no existe.
+
 ```mysql
 CREATE TABLE users ( id smallint unsigned not null auto_increment, name varchar(20) not null, username varchar(20) not null, constraint pk_example primary key (id) );
 
 INSERT INTO users ( id, name, username ) VALUES ( null, 'Sample data' , "brandonVergara");
 ```
+## Creando usuario y validado JSON
+
+```ruby
+  post '/users' do
+    user = User.new(json_params)
+    if user.save
+      status 201
+    else
+      status 422
+      body UserSerializer.new(user).to_json
+    end
+  end
+```
+
+Ejemplo: borrar un usuario desde la consola.
+
+```bash
+curl -i -H "Content-Type: application/json" -X DELETE http://localhost:4567/api/v1/users/2
+```
+
+### Json no valido
+```bash
+curl -H "Content-Type: application/json" -X POST http://localhost:4567/api/v1/users -d '{"name": "brandon", "username": "postman"'
+```
+En seguida deberemos recibir la siguiente respuesta
+
+```
+{"message":"Invalid JSON"}
+```
+
 ## Helpers
 
-Estos son para el manejo de errores en las slicitudes que llegan por ejemplo un json corrupto
+Son funciones desginadas por sinatra para ser utilizadas.
+
+Estos son para el manejo de errores en las solicitudes que llegan, por ejemplo un json corrupto.
+
+
 
 ```ruby
   helpers do
@@ -93,20 +130,9 @@ Estos son para el manejo de errores en las slicitudes que llegan por ejemplo un 
 
 ## Serializable
 
-Serializamos el objeto para que pueda ser leido por el error
+Serializamos el objeto para que pueda ser leído por el error
 http://sinatrarb.com/extensions.html
 
-## Creando usuario y validado JSON
-
-### Json no valido
-```bash
-curl -H "Content-Type: application/json" -X POST http://localhost:4567/api/v1/users -d '{"name": "brandon", "username": "postman"'
-```
-En seguida deberemos recibir la siguiente respuesta
-
-```
-{"message":"Invalid JSON"}
-```
 
 ## Borrando un usuario
 
@@ -117,8 +143,21 @@ En seguida deberemos recibir la siguiente respuesta
     status 204
   end
 ```
-Ejemplo
+## Como regalo por llegar al final del post 🤭
 
-```bash
-curl -i -H "Content-Type: application/json" -X DELETE http://localhost:4567/api/v1/users/2
+Agregar a nuestro Gemfile la siguiente dependencia:
+
+```ruby
+gem 'sinatra-reloader'
+```
+Y finalmente a nuestra aplicación añadir:
+
+```ruby
+#Code..
+require 'sinatra/reloader'
+
+#Code..
+
+
+
 ```
