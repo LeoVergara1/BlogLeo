@@ -17,7 +17,7 @@ keywords:
 - edeliver
 - distillery 
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: /images/elixir.png
 coverImage: /images/elixir.png
 metaAlignment: center

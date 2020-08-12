@@ -18,7 +18,7 @@ keywords:
 - edeliver
 - distillery
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: /images/cas/authotification_cover.jpg
 coverImage: /images/cas/authotification.jpg
 metaAlignment: center

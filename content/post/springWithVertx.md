@@ -23,7 +23,7 @@ keywords:
 - Spring
 - Hepl
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: /images/Vertx/vextxLogoMin.png
 coverImage: /images/Vertx/vextxLogo.png
 metaAlignment: center

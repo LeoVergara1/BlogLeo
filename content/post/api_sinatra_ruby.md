@@ -19,7 +19,7 @@ keywords:
 - Ruby
 - Sinatra
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: /images/apiSinatra/Sinatra_tiny.png
 coverImage: /images/apiSinatra/Sinatra_tiny.png
 metaAlignment: center

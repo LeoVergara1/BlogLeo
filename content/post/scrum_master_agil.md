@@ -20,7 +20,7 @@ keywords:
 - Agil
 - ScrumMaster
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: /images/Agil/Agil.jpg
 coverImage: /images/Agil/Agil.jpg
 metaAlignment: center

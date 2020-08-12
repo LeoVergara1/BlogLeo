@@ -24,7 +24,7 @@ keywords:
 - SocketJs
 - Hepl
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: /images/WebSockets/logo.jpg
 coverImage: /images/WebSockets/logo.jpg
 metaAlignment: center

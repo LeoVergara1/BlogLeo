@@ -21,7 +21,7 @@ keywords:
 - Spring
 - Hepl
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: /images/Quartz/quartz.png
 coverImage: /images/Quartz/java.png
 metaAlignment: center

@@ -14,7 +14,7 @@ keywords:
 - google
 - gravatar
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: images/frameworks/Spring.png
 coverImage: /images/frameworks/Spring2.png
 title: "Mapear lista dinámica con spring 4"

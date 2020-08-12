@@ -29,7 +29,7 @@ disqusShortname = "https-leovergara1-github-io"
   identifier = "home"
   name = "Home"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-home\"></i>"
-  url = "/"
+  url = "/post"
 [[menu.main]]
   weight = 1
   identifier = "categories"
@@ -98,12 +98,13 @@ disqusShortname = "https-leovergara1-github-io"
   hierarchicalCategories = true
   description = "Blog de Leo"
   sidebarBehavior = 1
-  coverImage = "cover.jpg"
+  coverImage = "coverMin.jpg"
   imageGallery = true
   thumbnailImage = true
   thumbnailImagePosition = "bottom"
   autoThumbnailImage = true
   favicon = "/favicon.png"
+  syntaxHighlighter = 'highlight.js'
 
 [params.header.rightLink]
   class = ""

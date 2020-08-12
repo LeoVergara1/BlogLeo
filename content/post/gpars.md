@@ -23,7 +23,7 @@ keywords:
 - Hepl
 - Parallel
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: /images/gpars/groovyTitle.png
 coverImage: /images/gpars/groovyFos.png 
 metaAlignment: center

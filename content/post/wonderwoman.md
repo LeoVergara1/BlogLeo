@@ -12,7 +12,7 @@ keywords:
 - google
 - gravatar
 autoThumbnailImage: false
-thumbnailImagePosition: "top"
+thumbnailImagePosition: "left"
 thumbnailImage: images/wonder2.png
 coverImage: /images/wonder.png
 metaAlignment: center
