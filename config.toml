@@ -84,6 +84,13 @@ disqusShortname = "https-leovergara1-github-io"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-twitter\"></i>"
   url = "https://twitter.com/LeoVergara2"
 
+[[menu.links]]
+  weight = 1
+  identifier = "Linkedin"
+  name = "Linkedin"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-linkedin\"></i>"
+  url = "https://www.linkedin.com/in/raymundo-brandon-vergara-maga%C3%B1a-91b8a3166/"
+
 [[menu.misc]]
   weight = 0
   identifier = "Spotify"
