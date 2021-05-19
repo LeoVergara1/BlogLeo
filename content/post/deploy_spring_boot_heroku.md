@@ -28,6 +28,7 @@ metaAlignment: center
 * Tener una aplicación básica  en springBoot (https://start.spring.io/)
 * Tener una cuenta de Heroku (https://www.heroku.com/)
 * Tener git iniciado en el proyecto
+* Por defecto Heroku usa JDK 1.8, si deseas cambiarlo revisa la siguiente info (https://devcenter.heroku.com/articles/java-support#specifying-a-java-version)
 
 La ventaja de crear una aplicación en heroku es que ya contará con integración continua y de una manera gratuita y sencilla.
 
