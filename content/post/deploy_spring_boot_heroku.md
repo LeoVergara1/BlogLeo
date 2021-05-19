@@ -27,6 +27,7 @@ metaAlignment: center
 
 * Tener una aplicación básica  en springBoot (https://start.spring.io/)
 * Tener una cuenta de Heroku (https://www.heroku.com/)
+* Tener git iniciado en el proyecto
 
 La ventaja de crear una aplicación en heroku es que ya contará con integración continua y de una manera gratuita y sencilla.
 
